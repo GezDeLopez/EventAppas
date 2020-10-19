@@ -32,21 +32,21 @@ public class EventApps extends Application {
   
 public void start(Stage stage) {
 
-Text t1 = new Text("Nama     :");
-Text t2 = new Text("Telepon  :");
-Text t3 = new Text("Alamat   :");
+Text t1 = new Text("Namae     :");
+Text t2 = new Text("Telepone  :");
+Text t3 = new Text("Alamate   :");
 TextField tField1 = new TextField();
 TextField tField2 = new TextField();
 TextArea tArea1 = new TextArea();
 
-Button btn1 = new Button("Kirim");
-Button btn2 = new Button("Hapus");
+Button btn1 = new Button("Kirime");
+Button btn2 = new Button("Hapuse");
         
 GridPane gridPane = new GridPane();
 gridPane.setMinSize(400, 200);
-gridPane.setPadding(new Insets(50,50,50,50));
-gridPane.setVgap(7);
-gridPane.setHgap(9);
+gridPane.setPadding(new Insets(40,40,40,40));
+gridPane.setVgap(6);
+gridPane.setHgap(8);
 gridPane.setAlignment(Pos.CENTER);
 
 gridPane.add(t1, 0, 0);
@@ -70,4 +70,5 @@ launch(args);
 }
     
     
+
 
